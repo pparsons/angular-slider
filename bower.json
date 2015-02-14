@@ -18,14 +18,13 @@
 		"*.html"
     ],
     "dependencies": {
-        "angular": "~1.2",
-        "angular-touch": "~1.2"
+        "angular": "~1.3",
+        "angular-touch": "~1.3"
     },
     "devDependencies": {
         "angular-mocks": "*",
 		"angular-scenario": "*"
     },
 	"resolutions": {
-		"angular": "v1.2.16"
 	}
 }
