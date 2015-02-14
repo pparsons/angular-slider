@@ -6,7 +6,8 @@ module.exports = function(grunt){
         pkg: grunt.file.readJSON('package.json'),
         srcFiles: [
             'src/rangeInputSupported.js',
-            'src/angular-slider.js'
+            'src/angular-slider.js',
+            'src/slider.css'
         ],
         concat: {
             prod: {
@@ -31,9 +32,7 @@ module.exports = function(grunt){
             all: {
                 src: [
                     'Gruntfile.js',
-                    'karma.conf.js',
                     'src/**/*.js',
-                    'test/**/*.js'
                 ],
                 options: {
                     force: true
