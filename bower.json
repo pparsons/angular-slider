@@ -1,6 +1,6 @@
 {
   "name": "pparsons-angular-slider",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "main": "./build/angular-slider.js",
   "ignore": [
     "**/.*",

@@ -17,7 +17,7 @@ module.exports = function(grunt){
         },
         uglify: {
             options: {
-                banner: '/*\n <%= pkg.name %> v<%= pkg.version %> \n (c) 2013-2014 Venturocket, Inc. http://github.com/Venturocket \n License: MIT \n*/\n'
+                banner: '/*\n <%= pkg.name %> v<%= pkg.version %> \n http://github.com/pparsons \n License: MIT \n*/\n'
             },
             build: {
                 src: ['<%= srcFiles %>'],
